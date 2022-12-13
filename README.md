@@ -19,4 +19,4 @@ My goal is learn Kubernetes to apply on my job delivering new microservices more
   - Node Port: exposes a port throught the Node/Cluster.
   - Load Balancer: *I don't know yet...*
 
-![image](https://user-images.githubusercontent.com/31314944/207205666-0302a548-237e-4df7-bf38-7d0256e05fe8.png)
+![image](https://user-images.githubusercontent.com/31314944/207205834-8ea36aec-d093-4d52-b329-4992fe6749a9.png)
