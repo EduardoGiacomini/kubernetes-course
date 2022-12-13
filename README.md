@@ -11,3 +11,12 @@ My goal is learn Kubernetes to apply on my job delivering new microservices more
 - Pod controls the container making sure it is running and healthy, monitoring hardware resources like CPU, memory and storage.
 - **Pods aren't visible outside the cluster.**
 - Pods are volatile. They are stoping and starting all the time.
+
+### Service
+- Service gives to Pods an external IP address.
+- There are 3 types: Cluster IP, Node Port and Load Balancer.
+  - Cluster IP: only visible inside the cluster.
+  - Node Port: exposes a port throught the Node/Cluster.
+  - Load Balancer: *I don't know yet...*
+
+![image](https://user-images.githubusercontent.com/31314944/207205666-0302a548-237e-4df7-bf38-7d0256e05fe8.png)
