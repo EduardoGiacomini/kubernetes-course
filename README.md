@@ -6,6 +6,12 @@ Kubernetes (K8s) is an open source product used to automate deploying, scaling, 
 
 My goal is learn Kubernetes to apply on my job delivering new microservices more efficiently. This Readme file will be a notebook with a lot of annotations.
 
+### Commands
+#### Apply all yaml files;
+```bash
+kubectl apply -f .
+```
+
 ### Pod
 - Pod is a wrapper for a Docker container.
 - Pod controls the container making sure it is running and healthy, monitoring hardware resources like CPU, memory and storage.
