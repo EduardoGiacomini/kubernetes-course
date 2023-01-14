@@ -20,3 +20,12 @@ My goal is learn Kubernetes to apply on my job delivering new microservices more
   - Load Balancer: *I don't know yet...*
 
 ![image](https://user-images.githubusercontent.com/31314944/207205834-8ea36aec-d093-4d52-b329-4992fe6749a9.png)
+
+### Replica set
+- Replica sets can manage a group of identical pods at any time;
+- One interisting feature is the min pod definition. When 2 replicas is defined, the replica set will detected and recreate dead pods.
+
+### Deployments
+- Deployments is a type of replica set versioning;
+- When a new deployment is made, a new replica set will be created. When the new one is responding the requests (or is healthy) the old one will have the replica number replaced to 0;
+- Is possible to make rollbacks to old replica sets easily.
