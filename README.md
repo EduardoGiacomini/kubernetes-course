@@ -7,9 +7,22 @@ Kubernetes (K8s) is an open source product used to automate deploying, scaling, 
 My goal is learn Kubernetes to apply on my job delivering new microservices more efficiently. This Readme file will be a notebook with a lot of annotations.
 
 ### Commands
-#### Apply all yaml files;
+#### ;
 ```bash
+# Check kubernetes status
+kubectl get all
+
+# Apply all yaml files
 kubectl apply -f .
+
+# Follow rollouts
+kubectl rollout status deploy <deployment name>
+
+# History of rollouts
+kubectl rollout history deploy <deployment name>
+
+# Rollback
+kubectl rollout undo deploy <deployment name>
 ```
 
 ### Pod
